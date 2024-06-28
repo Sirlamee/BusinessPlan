@@ -62,6 +62,57 @@ button.hero-buttonB {
     margin-bottom: 100px;
     font-family: 'Raleway';
 }
+.pdfButton {
+    border: 1px solid #1434A4;
+    border-radius: 100px;
+    width: 163px;
+    height: 46px;
+    } 
+.ableCard {
+        background-image: url(../img/elipse.png);
+        background-size: contain;
+        width: 65px;
+        height: 65px;
+    }
+.ableCard h6 {
+        text-align: center;
+        align-self: center;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18.2px;
+}
+div.images, div.imgBigScreen {
+    position: relative;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.readImage {
+    position: relative;
+    top: 50px;
+}
+.bookImage {
+    position: relative;
+    top: 100px;
+}
+.readImage img, .bookImage img {
+    width: 150px;
+    height: 200px;
+}
+div.getAccess {
+    text-align: start;
+}
+div.getAccess h5 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30.6px;
+}
+div.getAccess h6 {
+    font-weight: 40;
+}
+div.geAccess p {
+    font-weight: 300;
+}
+
 .serviceCards {
     background-image: url(../img/circle.png);
     background-repeat: no-repeat;
@@ -92,6 +143,20 @@ p.services {
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
+}
+.sectionTwo {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Raleway';
+    
+}
+.sectionTwo h6 {
+    color: #1434A4;
+    font-weight: 600;
+}
+.sectionTwo h5 {
+    font-weight: 600;
 }
 
 
