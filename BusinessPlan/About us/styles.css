@@ -1,0 +1,202 @@
+a {
+    text-decoration: none;
+ }
+ 
+div.hero-content {
+    background-image: url(../img/heroAboutUs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Raleway';
+  }
+  .fontRale {
+    font-family: 'Raleway';
+  }
+  .fontSans {
+    font-family: 'Open Sans';
+  }
+
+nav.hero-nav {
+    background-color: rgba(20, 52, 164, 0.1);
+    border-radius: 25px;
+    border: 0.1px solid #2d2a4d;
+    margin: 0cm 1cm 0cm 1cm;
+    position: relative;
+    top: 0.5cm;
+}
+
+button.contactUs {
+    border: 0px;
+    border-radius: 30px;
+    background-color: #1434A4;
+    color: #ffffff;
+    gap: 1px;
+    width: 113px;
+    height: 40px;
+} 
+.pHero {
+    font-size: 20px;
+    font-weight: 400;
+}
+button.hero-buttonA {
+    gap: 10px;
+    border: 0px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #1434A4;
+    width: 152px;
+    height: 46px;
+}
+button.hero-buttonB {
+    border: 1px solid #1434A4;
+    border-radius: 100px;
+    width: 152px;
+    height: 46px;
+}
+.sectionOne {
+    text-align: center;
+    margin-top: 2cm;
+    margin-bottom: 2.0cm;
+}
+.sectionOne h5 {
+    font-weight: 600;
+}
+.sectionOne p {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+}
+.sectionTwo, .sectionThree {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Raleway';
+}
+.serviceCards {
+    background-image: url(../img/circle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.services {
+    text-align: center;
+    margin-bottom: 1.5cm;
+}
+.services h5 {
+    font-weight: 600;
+}
+.services p {
+    font-weight: 400;    
+}
+.serviceCard {
+    text-align: center;
+    border: 0.1px solid rgba(0, 0, 1, 0.6);
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 1, 0.6);
+}
+.serviceCardHeader {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+.sectionThree {
+    background-image: url(../img/overlay.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+.getAccess {
+    text-align: center;
+}
+.ableCard {
+    background-image: url(../img/elipse.png);
+    background-size: contain;
+    width: 65px;
+    height: 65px;
+}
+.ableCard h6 {
+    text-align: center;
+    align-self: center;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18.2px;
+}
+/* .sectionThree::before {
+    content: "";
+    background-image: url(../img/overlay.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+} */
+.sectionThree h5 {
+    font-weight: 700;
+}
+footer.mainFooter {
+    background: #1434A4;
+} 
+footer h5 {
+    font-family: 'Cormorant Upright';
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    text-align: center;
+}
+.footerText, .footerLink {
+    padding: 5%; 
+}
+
+footer p, .footer-ul {
+    font-family: 'Proza Libre';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5) !important;
+    list-style: none;
+
+}
+.copyRight {
+    font-family: 'Proza Libre';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.2px;
+}
+
+
+/* Medium devices (tablets, 768px upwards) */
+@media (min-width: 768px) { 
+    .hero-body {
+        padding-top: 3.5cm !important;
+        padding-bottom: 7cm !important;
+        padding-left: 6% !important;
+        width: 60%;
+    }
+    .sectionOne h5 {
+        font-size: 36px;
+        line-height: 43.2px;
+    }
+    .sectionOne p {
+        font-size: 20px;
+        line-height: 28px;
+        width: 450px;
+    }
+    .sectionOneimages {
+        position: relative;
+    }
+    div.sectionOneSecondImg {
+        position: relative;
+        top: 30px;
+    }
+    .services p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .services h5, .sectionThree h5 {
+        font-size: 36px;
+    line-height: 39.6px;
+    }
+}
